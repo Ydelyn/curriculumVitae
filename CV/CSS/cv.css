@@ -1,0 +1,166 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+main{
+    display: flex;
+}
+
+#gauche{
+    width: 40%;
+    background-color: #0fa9ec;
+    position: relative;
+    padding-top: 16vw;
+}
+
+#gauche img{
+    border-radius: 100%;
+    width: 60%;
+    position: absolute;
+    top: -3vw;
+    left: 4vw;
+}
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    width: 90%;
+    padding-left: 3vw;
+    font-size: 5vw;
+    margin: auto;
+    font-weight: lighter;
+}
+
+h2, h3, h4{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3{
+    text-transform: uppercase;
+    color: #052784;
+}
+
+h2{
+    width: 90%;
+    margin: auto;
+    padding-left: 3vw;
+    font-size: 2.4vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+}
+
+.gElem{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    font-size: 1.8vw;
+}
+
+.gElem p, ul, .gElem a{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.8vw;
+    padding: 2vw 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h3::after{
+    content: " :";
+}
+
+li::before{
+    content: "• ";
+}
+
+#niveau{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+
+#langage li::before{
+    content: unset;
+}
+
+#langage li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#langage i{
+    margin: 0.2vw;
+    font-size: 1vw;
+}
+
+.plein{
+    border-radius: 100%;
+    color: #052784;
+}
+
+.vide{
+    border-radius: 100%;
+    color: white;
+}
+
+#contact i{
+    margin-right: 1vw;
+    font-size: 2.5vw;
+    color: #052784;
+}
+
+#droite{
+    width: 60%;
+    background-color: #e9f8ff;
+}
+
+.dElem{
+    width: 80%;
+    margin: auto;
+}
+
+.dElem h3{
+    margin-top: 6vw;
+}
+
+h4{
+    text-transform: uppercase;
+    margin: 2vw 0 1vw 0;
+    font-size: 1.5vw;
+}
+
+.dElem p{
+    font-family: 'Teko', sans-serif;
+    color: rgb(88, 88, 88);
+    font-style: italic;
+    font-size: 1.8vw;
+}
+
+.dElem ul{
+    color: #052784;
+    font-size: 1.4vw;
+    margin-top: -1vw;
+}
+
+.univ{
+    padding: 2vw 0;
+}
